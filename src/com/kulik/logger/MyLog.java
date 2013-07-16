@@ -14,4 +14,8 @@ public interface MyLog {
     public void i(String message);
 
     public void d(String message);
+
+    public void e(String message);
+
+    public void e(String message, Throwable e);
 }

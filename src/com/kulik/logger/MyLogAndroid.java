@@ -27,4 +27,14 @@ public class MyLogAndroid implements MyLog{
             Log.d(mTag, message);
         }
     }
+
+    @Override
+    public void e(String message) {
+        Log.e(mTag, message);
+    }
+
+    @Override
+    public void e(String message, Throwable e) {
+        Log.e(mTag, message, e);
+    }
 }
